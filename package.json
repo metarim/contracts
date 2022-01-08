@@ -1,0 +1,31 @@
+{
+  "name": "bwitter-contract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.3.1",
+    "@pancakeswap/sdk": "^2.4.0",
+    "@truffle/hdwallet-provider": "^1.5.0",
+    "@uniswap/v2-core": "^1.0.1",
+    "@uniswap/v2-periphery": "^1.1.0-beta.0",
+    "chai-string": "^1.5.0",
+    "eth-permit": "^0.2.1",
+    "ethers": "^5.4.7",
+    "jsbi": "^4.0.0",
+    "nodemailer": "^6.7.2",
+    "web3": "^1.6.0"
+  },
+  "devDependencies": {
+    "@openzeppelin/test-helpers": "^0.5.13",
+    "chai": "^4.3.4"
+  }
+}
